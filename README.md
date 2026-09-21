@@ -42,35 +42,6 @@ Real-time dashboard
 
 Raspberry Pi support
 
-Architecture
-                 VEHICLE
-                    │
-                    │ OBD2 / CAN
-                    ▼
-              ┌─────────────┐
-              │     ECU     │
-              └──────┬──────┘
-                     │
-                     ▼
-              ┌─────────────┐
-              │ CAN / OBD2  │
-              │  Interface  │
-              └──────┬──────┘
-                     │
-                     ▼
-              ┌─────────────┐
-              │ Raspberry   │
-              │    Pi      │
-              └──────┬──────┘
-                     │
-             ┌───────┴────────┐
-             ▼                ▼
-        Data Logger       Dashboard
-             │                │
-             ▼                ▼
-           CSV            Real-time
-                          telemetry
-
 Hardware
 The initial target platform is Raspberry Pi.
 
